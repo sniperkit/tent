@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package source
 
 import (
@@ -7,7 +12,7 @@ import (
 )
 
 func TestRepo(t *testing.T) {
-	r, err := NewRepo("https://github.com/go-tent/tent")
+	r, err := NewRepo("https://github.com/sniperkit/tent")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -20,7 +25,7 @@ func TestRepo(t *testing.T) {
 }
 
 func TestGit(t *testing.T) {
-	r, err := NewRepo("https://github.com/go-tent/tent")
+	r, err := NewRepo("https://github.com/sniperkit/tent")
 	if err != nil {
 		t.Fatal(err)
 	}

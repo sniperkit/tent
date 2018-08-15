@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package component implement Source parsing in a Category/Component tree.
 package core
 
